@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Indie+Flower&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  flex-direction: column;
+  background: linear-gradient(to right, lightblue, yellow);
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.container {
+  width: 40rem;
+  text-align: center;
+  border-radius: 10px;
+  padding: 2rem 4rem;
+  margin: 1rem;
+  background: #f4fce3;
+  box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px,
+    rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px,
+    rgba(240, 46, 170, 0.05) 0px 25px;
+}
+
+.anime-container {
+  display: none;
+}
+
+.anime-container img {
+  width: 30rem;
+  height: 30rem;
+  border-radius: 50%;
+  background-size: cover;
+  margin-bottom: 2rem;
+}
+
+.title {
+  font-size: 2.6rem;
+  letter-spacing: 2.2px;
+  margin-bottom: 1.4rem;
+}
+.btn {
+  font-size: 1.6rem;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  color: aliceblue;
+  cursor: pointer;
+  border: none;
+  background-color: #2f9e44;
+  margin-bottom: 1.6rem;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+
+.btn:disabled {
+  cursor: not-allowed;
+  background-color: gray;
+}
+
+.anime-name {
+  font-size: 2rem;
+  letter-spacing: 2px;
+  padding: 1rem;
+  border: 1px solid gray;
+}
